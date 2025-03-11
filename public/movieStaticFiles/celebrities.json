@@ -1,0 +1,529 @@
+
+[
+  {
+    "celebrity_id": "C001",
+    "name": "Leonardo DiCaprio",
+    "date_of_birth": "1974-11-11",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Leonardo DiCaprio is an Academy Award-winning actor known for his performances in 'Titanic', 'Inception', 'The Wolf of Wall Street', 'The Revenant', and many more. He is widely regarded as one of the most talented actors of his generation.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/dicaprio-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/dicaprio-cover.jpg"
+  },
+  {
+    "celebrity_id": "C002",
+    "name": "Aaron Paul",
+    "date_of_birth": "1979-08-27",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Aaron Paul is an American actor best known for portraying Jesse Pinkman in the AMC series 'Breaking Bad'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/aaron-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/aaron-cover.jpg"
+  },
+  {
+    "celebrity_id": "C003",
+    "name": "Anna Gunn",
+    "date_of_birth": "1968-08-11",
+    "nationality": "American",
+    "profession": ["Actress"],
+    "biography": "Anna Gunn is an American actress, known for her role as Skyler White on the AMC drama series 'Breaking Bad'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/anna-gunn-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/anna-gunn-cover.webp"
+  },
+  {
+    "celebrity_id": "C004",
+    "name": "Vince Gilligan",
+    "date_of_birth": "1967-02-10",
+    "nationality": "American",
+    "profession": ["Writer", "Producer", "Director"],
+    "biography": "Vince Gilligan is an American writer, producer, and director, best known for creating the television series 'Breaking Bad'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/vince-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/vince-cover.jfif"
+  },
+  {
+    "celebrity_id": "C005",
+    "name": "Millie Bobby Brown",
+    "date_of_birth": "2004-02-19",
+    "nationality": "British",
+    "profession": ["Actress", "Producer"],
+    "biography": "Millie Bobby Brown is a British actress and producer, known for her role as Eleven in the Netflix series 'Stranger Things'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/millie-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/millie-cover.jpg"
+  },
+  {
+    "celebrity_id": "C006",
+    "name": "Finn Wolfhard",
+    "date_of_birth": "2002-12-23",
+    "nationality": "Canadian",
+    "profession": ["Actor", "Musician"],
+    "biography": "Finn Wolfhard is a Canadian actor and musician, known for his role as Mike Wheeler in 'Stranger Things'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/finn-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/finn-cover.jpg"
+  },
+  {
+    "celebrity_id": "C007",
+    "name": "David Harbour",
+    "date_of_birth": "1975-04-10",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "David Harbour is an American actor, known for his role as Jim Hopper in the Netflix series 'Stranger Things'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/david-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/david-cover.webp"
+  },
+  {
+    "celebrity_id": "C008",
+    "name": "Matt Duffer",
+    "date_of_birth": "1984-02-15",
+    "nationality": "American",
+    "profession": ["Writer", "Director", "Producer"],
+    "biography": "Matt Duffer, along with his twin brother Ross, is known for creating the Netflix series 'Stranger Things'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/matt-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/matt-cover.webp"
+  },
+  {
+    "celebrity_id": "C009",
+    "name": "Ross Duffer",
+    "date_of_birth": "1984-02-15",
+    "nationality": "American",
+    "profession": ["Writer", "Director", "Producer"],
+    "biography": "Ross Duffer, along with his twin brother Matt, is known for creating the Netflix series 'Stranger Things'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/ross-poster.jpeg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/ross-cover.avif"
+  },
+  {
+    "celebrity_id": "C010",
+    "name": "Matthew Fox",
+    "date_of_birth": "1966-07-14",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "Matthew Fox is an American actor, known for his role as Jack Shephard on the TV series 'Lost'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/matthew-fox-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/matthew-fox-cover.jpg"
+  },
+  {
+    "celebrity_id": "C011",
+    "name": "Evangeline Lilly",
+    "date_of_birth": "1979-08-03",
+    "nationality": "Canadian",
+    "profession": ["Actress", "Author"],
+    "biography": "Evangeline Lilly is a Canadian actress and author, known for her role as Kate Austen in 'Lost'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/evangeline-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/evangeline-cover.jpg"
+  },
+  {
+    "celebrity_id": "C012",
+    "name": "Josh Holloway",
+    "date_of_birth": "1969-07-20",
+    "nationality": "American",
+    "profession": ["Actor", "Model"],
+    "biography": "Josh Holloway is an American actor and model, known for his role as James 'Sawyer' Ford on 'Lost'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/josh-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/josh-cover.jpg"
+  },
+  {
+    "celebrity_id": "C013",
+    "name": "J.J. Abrams",
+    "date_of_birth": "1966-06-27",
+    "nationality": "American",
+    "profession": ["Writer", "Director", "Producer"],
+    "biography": "J.J. Abrams is an American filmmaker and screenwriter, known for his work on 'Lost', 'Star Wars', and 'Star Trek'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/jj-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/jj-cover.webp"
+  },
+  {
+    "celebrity_id": "C014",
+    "name": "Damon Lindelof",
+    "date_of_birth": "1973-04-24",
+    "nationality": "American",
+    "profession": ["Writer", "Producer"],
+    "biography": "Damon Lindelof is an American screenwriter and producer, best known as the co-creator of 'Lost' and 'The Leftovers'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/damon-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/damon-cover.webp"
+  },
+  {
+    "celebrity_id": "C015",
+    "name": "Sean Bean",
+    "date_of_birth": "1959-04-17",
+    "nationality": "British",
+    "profession": ["Actor"],
+    "biography": "Sean Bean is an English actor, famous for his roles in 'Game of Thrones', 'The Lord of the Rings', and 'GoldenEye'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/sean-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/sean-cover.jpg"
+  },
+  {
+    "celebrity_id": "C016",
+    "name": "Peter Dinklage",
+    "date_of_birth": "1969-06-11",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "Peter Dinklage is an American actor, best known for his portrayal of Tyrion Lannister in 'Game of Thrones'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/peter-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/peter-cover.jpg"
+  },
+  {
+    "celebrity_id": "C017",
+    "name": "Emilia Clarke",
+    "date_of_birth": "1986-10-23",
+    "nationality": "British",
+    "profession": ["Actress"],
+    "biography": "Emilia Clarke is an English actress, known for playing Daenerys Targaryen in 'Game of Thrones'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/emilia-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/emilia-cover.jpg"
+  },
+  {
+    "celebrity_id": "C018",
+    "name": "David Benioff",
+    "date_of_birth": "1970-09-25",
+    "nationality": "American",
+    "profession": ["Writer", "Producer"],
+    "biography": "David Benioff is an American writer and producer, best known as the co-creator of 'Game of Thrones'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/devid-b-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/david-b-cover.jpg"
+  },
+  {
+    "celebrity_id": "C019",
+    "name": "D.B. Weiss",
+    "date_of_birth": "1971-04-23",
+    "nationality": "American",
+    "profession": ["Writer", "Producer"],
+    "biography": "D.B. Weiss is an American screenwriter and producer, known for co-creating 'Game of Thrones'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/db-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/db-cover.webp"
+  },
+  {
+    "celebrity_id": "C020",
+    "name": "Evan Rachel Wood",
+    "date_of_birth": "1987-09-07",
+    "nationality": "American",
+    "profession": ["Actress"],
+    "biography": "Evan Rachel Wood is an American actress, best known for her role as Dolores in 'Westworld'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/evan-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/evan-cover.webp"
+  },
+  {
+    "celebrity_id": "C021",
+    "name": "Thandiwe Newton",
+    "date_of_birth": "1972-11-06",
+    "nationality": "British",
+    "profession": ["Actress"],
+    "biography": "Thandiwe Newton is an English actress, known for her roles in 'Westworld' and 'Crash'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/thandiwe-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/thandiwe-cover.jfif"
+  },
+  {
+    "celebrity_id": "C022",
+    "name": "Jonathan Nolan",
+    "date_of_birth": "1976-06-06",
+    "nationality": "British-American",
+    "profession": ["Writer", "Producer", "Director"],
+    "biography": "Jonathan Nolan is a British-American screenwriter and producer, known for 'Westworld' and co-writing 'Interstellar'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/j-nolan-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/j-nolan-cover.webp"
+  },
+  {
+    "celebrity_id": "C023",
+    "name": "Lisa Joy",
+    "date_of_birth": "Unknown",
+    "nationality": "American",
+    "profession": ["Writer", "Producer"],
+    "biography": "Lisa Joy is an American writer and producer, known for co-creating 'Westworld'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/lisa-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/lisa-cover.webp"
+  },
+  {
+    "celebrity_id": "C024",
+    "name": "Jim Caviezel",
+    "date_of_birth": "1968-09-26",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "Jim Caviezel is an American actor, known for playing John Reese in 'Person of Interest'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/jim-c-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/jim-c-cover.jpg"
+  },
+  {
+    "celebrity_id": "C025",
+    "name": "Michael Emerson",
+    "date_of_birth": "1954-09-07",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "Michael Emerson is an American actor, known for his roles in 'Lost' and 'Person of Interest'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/michel-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/michel-cover.jpg"
+  },
+  {
+    "celebrity_id": "C026",
+    "name": "Christopher Nolan",
+    "date_of_birth": "1970-07-30",
+    "nationality": "British-American",
+    "profession": ["Director", "Producer", "Screenwriter"],
+    "biography": "Christopher Nolan is a highly acclaimed filmmaker known for his innovative storytelling and complex narratives. He has directed numerous critically acclaimed films, including 'Inception', 'The Dark Knight Trilogy', 'Interstellar', and 'Dunkirk'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/nolan-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/nolan-cover.jpg"
+  },
+  {
+    "celebrity_id": "C027",
+    "name": "Karl Urban",
+    "date_of_birth": "1972-06-07",
+    "nationality": "New Zealander",
+    "profession": ["Actor"],
+    "biography": "Karl Urban is a New Zealand actor, known for playing Billy Butcher in 'The Boys'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/karl-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/karl-cover.jpg"
+  },
+  {
+    "celebrity_id": "C028",
+    "name": "Jack Quaid",
+    "date_of_birth": "1992-04-24",
+    "nationality": "American",
+    "profession": ["Actor"],
+    "biography": "Jack Quaid is an American actor, known for playing Hughie Campbell in 'The Boys'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/jack-q-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/jack-q-cover.jpg"
+  },
+  {
+    "celebrity_id": "C029",
+    "name": "Eric Kripke",
+    "date_of_birth": "1974-04-24",
+    "nationality": "American",
+    "profession": ["Writer", "Producer"],
+    "biography": "Eric Kripke is an American writer and producer, known for creating 'Supernatural' and 'The Boys'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/eric-k-poster.jfif",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/eric-k-cover.webp"
+  },
+  {
+    "celebrity_id": "C030",
+    "name": "Tim Robbins",
+    "date_of_birth": "1958-10-16",
+    "nationality": "American",
+    "profession": ["Actor", "Director", "Producer", "Screenwriter"],
+    "biography": "Tim Robbins is an American actor known for his roles in 'The Shawshank Redemption', 'Mystic River', and 'Bull Durham'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/tim-robbins.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/tim-robbins-cover.jpg"
+  },{
+    "celebrity_id": "C031",
+    "name": "Morgan Freeman",
+    "date_of_birth": "1937-06-01",
+    "nationality": "American",
+    "profession": ["Actor", "Producer", "Narrator"],
+    "biography": "Morgan Freeman is an American actor and narrator, renowned for his deep voice and roles in 'The Shawshank Redemption', 'Se7en', and 'Million Dollar Baby'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/morgan-freeman.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/morgan-freeman-cover.jpg"
+  },
+  {
+    "celebrity_id": "C032",
+    "name": "Frank Darabont",
+    "date_of_birth": "1959-01-28",
+    "nationality": "American",
+    "profession": ["Director", "Screenwriter", "Producer"],
+    "biography": "Frank Darabont is an American film director, screenwriter, and producer, best known for directing 'The Shawshank Redemption' and 'The Green Mile'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/frank-darabont.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/frank-darabont-cover.jpg"
+  },
+  {
+    "celebrity_id": "C033",
+    "name": "Kevin Spacey",
+    "date_of_birth": "1959-07-26",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Kevin Spacey is an American actor and producer, known for his roles in 'The Usual Suspects', 'American Beauty', and the series 'House of Cards'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/kevin-spacey.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/kevin-spacey-cover.jpg"
+  },
+  {
+    "celebrity_id": "C034",
+    "name": "Gabriel Byrne",
+    "date_of_birth": "1950-05-12",
+    "nationality": "Irish",
+    "profession": ["Actor", "Producer", "Writer"],
+    "biography": "Gabriel Byrne is an Irish actor, film director, and producer, recognized for his performances in 'The Usual Suspects', 'Miller's Crossing', and 'In Treatment'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/gabriel-byrne.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/gabriel-byrne-cover.jpg"
+  },
+  {
+    "celebrity_id": "C035",
+    "name": "Bryan Singer",
+    "date_of_birth": "1965-09-17",
+    "nationality": "American",
+    "profession": ["Director", "Producer", "Writer"],
+    "biography": "Bryan Singer is an American director and producer, known for directing 'The Usual Suspects', 'X-Men', and 'Bohemian Rhapsody'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/bryan-singer.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/bryan-singer-cover.jpg"
+  },
+  {
+    "celebrity_id": "C036",
+    "name": "Jim Carrey",
+    "date_of_birth": "1962-01-17",
+    "nationality": "Canadian-American",
+    "profession": ["Actor", "Comedian", "Writer", "Artist"],
+    "biography": "Jim Carrey is a Canadian-American actor and comedian, celebrated for his energetic slapstick performances in films like 'Eternal Sunshine of the Spotless Mind', 'The Mask', and 'Dumb and Dumber'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/jim-carrey.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/jim-carrey-cover.jpg"
+  },
+  {
+    "celebrity_id": "C037",
+    "name": "Kate Winslet",
+    "date_of_birth": "1975-10-05",
+    "nationality": "British",
+    "profession": ["Actress", "Singer"],
+    "biography": "Kate Winslet is a British actress known for her diverse roles in films such as 'Eternal Sunshine of the Spotless Mind', 'Titanic', and 'The Reader'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/kate-winslet.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/kate-winslet-cover.jpg"
+  },
+  {
+    "celebrity_id": "C038",
+    "name": "Michel Gondry",
+    "date_of_birth": "1963-05-08",
+    "nationality": "French",
+    "profession": ["Director", "Screenwriter", "Producer"],
+    "biography": "Michel Gondry is a French film director, screenwriter, and producer, acclaimed for his inventive visual style in films like 'Eternal Sunshine of the Spotless Mind' and 'The Science of Sleep'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/michel-gondry.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/michel-gondry-cover.jpg"
+  },
+  {
+    "celebrity_id": "C039",
+    "name": "Brad Pitt",
+    "date_of_birth": "1963-12-18",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Brad Pitt is an American actor and film producer. He has received various accolades, including two Academy Awards and two Golden Globe Awards. Known for his roles in 'Fight Club', 'Se7en', 'Inglourious Basterds', and 'Once Upon a Time in Hollywood'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/brad-pitt.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/brad-pitt-cover.jpg"
+  },
+  {
+    "celebrity_id": "C040",
+    "name": "Edward Norton",
+    "date_of_birth": "1969-08-18",
+    "nationality": "American",
+    "profession": ["Actor", "Producer", "Director"],
+    "biography": "Edward Norton is an American actor and filmmaker, known for his roles in 'Fight Club', 'American History X', and 'Birdman'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/edward-norton.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/edward-norton-cover.jpg"
+  },    
+
+  {
+    "celebrity_id": "C041",
+    "name": "David Fincher",
+    "date_of_birth": "1962-08-28",
+    "nationality": "American",
+    "profession": ["Director", "Producer"],
+    "biography": "David Fincher is an acclaimed American director and producer known for his dark, stylish thrillers and dramas. His notable works include 'Fight Club', 'Se7en', 'Gone Girl', and 'The Social Network'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/fincher-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/fincher-cover.jpg"
+  },
+  {
+    "celebrity_id": "C042",
+    "name": "Kevin Spacey",
+    "date_of_birth": "1959-07-26",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Kevin Spacey is an American actor known for his roles in 'The Usual Suspects', 'Se7en', and 'House of Cards'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/kevin-spacey.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/kevin-spacey-cover.jpg"
+  },
+  {
+    "celebrity_id": "C043",
+    "name": "Russell Crowe",
+    "date_of_birth": "1964-04-07",
+    "nationality": "New Zealander",
+    "profession": ["Actor", "Producer"],
+    "biography": "Russell Crowe is a New Zealander actor known for his roles in 'Gladiator', 'A Beautiful Mind', and 'Master and Commander'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/russell-crowe.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/russell-crowe-cover.jpg"
+  },
+  {
+    "celebrity_id": "C044",
+    "name": "Joaquin Phoenix",
+    "date_of_birth": "1974-10-28",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Joaquin Phoenix is an American actor known for his versatile performances in 'Joker', 'Gladiator', and 'Her'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/joaquin-phoenix.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/joaquin-phoenix-cover.jpg"
+  },
+
+  {
+    "celebrity_id": "C045",
+    "name": "Ridley Scott",
+    "date_of_birth": "1937-11-30",
+    "nationality": "British",
+    "profession": ["Director", "Producer"],
+    "biography": "Ridley Scott is a renowned British filmmaker known for his epic and visually stunning movies, including 'Gladiator', 'Blade Runner', and 'Alien'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/scott-poster.jfif",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/scott-cover.jpg"
+  },    
+  {
+    "celebrity_id": "C046",
+    "name": "John Travolta",
+    "date_of_birth": "1954-02-18",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "John Travolta is an American actor and singer, known for his iconic roles in 'Grease', 'Pulp Fiction', and 'Saturday Night Fever'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/john-travolta.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/john-travolta-cover.jpg"
+  },
+  {
+    "celebrity_id": "C047",
+    "name": "Samuel L. Jackson",
+    "date_of_birth": "1948-12-21",
+    "nationality": "American",
+    "profession": ["Actor", "Producer"],
+    "biography": "Samuel L. Jackson is an American actor known for his powerful presence in films like 'Pulp Fiction', 'Django Unchained', and the Marvel Cinematic Universe.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/samuel-jackson.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/samuel-jackson-cover.jpg"
+  },
+
+  {
+    "celebrity_id": "C048",
+    "name": "Quentin Tarantino",
+    "date_of_birth": "1963-03-27",
+    "nationality": "American",
+    "profession": ["Director", "Screenwriter", "Producer", "Actor"],
+    "biography": "Quentin Tarantino is an acclaimed filmmaker known for his unique storytelling style, sharp dialogue, and nonlinear narrative structure. He has directed iconic films like 'Pulp Fiction', 'Kill Bill', and 'Inglourious Basterds'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/tarantino-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/tarantino-cover.jpg"
+  },
+  {
+    "celebrity_id": "C049",
+    "name": "Jonah Hill",
+    "date_of_birth": "1983-12-20",
+    "nationality": "American",
+    "profession": ["Actor", "Producer", "Writer"],
+    "biography": "Jonah Hill is an American actor, comedian, and filmmaker known for his roles in 'Superbad', 'The Wolf of Wall Street', and '21 Jump Street'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/jonah-hill.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/jonah-hill-cover.jpg"
+  },
+  {
+    "celebrity_id": "C050",
+    "name": "Martin Scorsese",
+    "date_of_birth": "1942-11-17",
+    "nationality": "American",
+    "profession": ["Director", "Producer", "Writer"],
+    "biography": "Martin Scorsese is one of the most influential directors in film history, known for his bold and iconic movies such as 'The Wolf of Wall Street', 'Goodfellas', and 'Taxi Driver'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/scorsese-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/scorsese-cover.webp"
+  },
+  {
+    "celebrity_id": "C051",
+    "name": "Bryan Cranston",
+    "date_of_birth": "1956-03-07",
+    "nationality": "American",
+    "profession": ["Actor", "Producer", "Director"],
+    "biography": "Bryan Cranston is an American actor and filmmaker, known for his roles in 'Breaking Bad' and 'Malcolm in the Middle'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/bryan-poster.webp",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/bryan-cover.jpg"
+  },
+  {
+    "celebrity_id": "C052",
+    "name": "Christian Bale",
+    "date_of_birth": "1974-01-30",
+    "nationality": "British",
+    "profession": ["Actor"],
+    "biography": "Christian Bale is an acclaimed British actor known for his intense method acting and transformative performances. He is widely recognized for his portrayal of Bruce Wayne/Batman in 'The Dark Knight' trilogy, as well as his roles in 'American Psycho', 'The Fighter', and 'Ford v Ferrari'.",
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/christian-bale-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/christian-bale-cover.jpg"
+  }
+  
+  
+  
+]
+

@@ -1,0 +1,47 @@
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background */
+    z-index: 1000; /* Ensures it's above navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-menu-items-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3DDC84;
+}
+
+.menu-content {
+    background: rgba(35, 35, 35, 0.9);
+    width: 95%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.close-button {
+   
+    top: 10px;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(0, 223, 119);
+}
+
+.main-menu-items p{
+    cursor: pointer;
+}

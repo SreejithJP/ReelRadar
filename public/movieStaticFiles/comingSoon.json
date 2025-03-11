@@ -1,0 +1,59 @@
+ [
+     {
+        "title": "Daredevil: Born Again",
+        "release_date": "MAR 4, 2025",
+        "genre": ["Action", "Crime", "Superhero"],
+        "director": "Michael Cuesta",
+        "trailer": "https://youtu.be/FAFxpgvKWmI?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/Dare_devil.jpg"
+      },
+      {
+        "title": "Empuraan L2",
+        "release_date": "MAR 27, 2025",
+        "genre": ["Action", "Thriller"],
+        "director": "Prithviraj Sukumaran",
+        "trailer": "https://youtu.be/tGCnglJGElk?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/empuraan.jpg"
+      },
+      {
+        "title": "Mickey 17",
+        "release_date": "MAR 7, 2025",
+        "genre": ["Sci-Fi", "Drama"],
+        "director": "Bong Joon-ho",
+        "trailer": "https://youtu.be/A1frxqUGvFc?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/mickey17.jpg"
+      },
+      {
+        "title": "Dope Thief",
+        "release_date": "MAR 14, 2025",
+        "genre": ["Crime", "Thriller"],
+        "director": "Ridley Scott",
+        "trailer": "https://youtu.be/RePjWY4ESyQ?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/dope_thief.jpg"
+      },
+      {
+        "title": "The Diplomat",
+        "release_date": "MAR 14, 2025",
+        "genre": ["Thriller", "Drama"],
+        "director": "Shivam Nair",
+        "trailer": "https://youtu.be/CnEOLuCojY0?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/the_diplomat.jpg"
+      },
+      {
+        "title": "Black Bag",
+        "release_date": "2025",
+        "genre": ["Action", "Thriller"],
+        "director": "Steven Soderbergh",
+        "trailer": "https://youtu.be/Du0Xp8WX_7I?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/black_bag.jpg"
+      },
+      {
+        "title": "The Electric State",
+        "release_date": "March 14, 2025",
+        "genre": ["Sci-Fi", "Adventure"],
+        "director": "The Russo Brothers",
+        "trailer": "https://youtu.be/QIw6ITiwgBU?feature=shared",
+        "poster": "/movieStaticFiles/Coming_Soon/the_electric_state.webp"
+      }
+]
+  

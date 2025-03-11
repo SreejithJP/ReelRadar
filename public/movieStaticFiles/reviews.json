@@ -1,0 +1,19 @@
+[
+    {
+      "review_id": "R001",
+      "movie_or_series_id": "M001",
+      "user_name": "MovieFan99",
+      "rating": 9,
+      "review_text": "A mind-bending experience with stunning visuals!",
+      "review_date": "2025-02-15"
+    },
+    {
+      "review_id": "R002",
+      "movie_or_series_id": "S001",
+      "user_name": "BBWatcher",
+      "rating": 10,
+      "review_text": "One of the greatest TV series ever made!",
+      "review_date": "2025-03-01"
+    }
+  ]
+  

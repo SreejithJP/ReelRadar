@@ -1,0 +1,22 @@
+[
+    {
+      "series_id": "S003",
+      "title": "House of the Dragon - Season 2",
+      "release_date": "2025-06-15",
+      "genres": ["Fantasy", "Drama"],
+      "poster_url": "/movieStaticFiles/movie-series-celebrity-img/hods3.jpg",
+      "cover":"/movieStaticFiles/movie-series-celebrity-img/hotd-cover.avif",
+      "description": "Season 2 of House of the Dragon concluded on a strategic note, setting the stage for an enthralling Season 3, which HBO has already greenlit. The third season, expected to premiere in 2026, is set to deliver a significant payoff with a big battle between the Greens and the Blacks. Production for Season 3 is slated to begin in spring 2025, following a similar two-year gap between seasons."
+    },
+    {
+      "series_id": "S004",
+      "title": "The Witcher - Season 4",
+      "release_date": "2025-09-10",
+      "genres": ["Fantasy", "Action"],
+      "poster_url": "/movieStaticFiles/movie-series-celebrity-img/witchers4.jpg",
+      "cover":"/movieStaticFiles/movie-series-celebrity-img/witcher-cover.avif",
+      "description": "Production for Season 4 of The Witcher is underway, with filming having commenced in April 2024. This season marks a significant change, as Liam Hemsworth will take over the role of Geralt of Rivia from Henry Cavill. The narrative is expected to follow the events of Baptism of Fire, the third novel in Andrzej Sapkowski's Witcher series. New characters, such as the vampire Regis and the dwarf Zoltan Chivay, are anticipated to join the storyline."
+    }
+  ]
+
+  

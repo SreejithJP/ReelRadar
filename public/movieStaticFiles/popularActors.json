@@ -1,0 +1,216 @@
+[
+    {
+      "name": "Leonardo DiCaprio",
+      "born_in": "November 11, 1974",
+      "place": "Los Angeles, California, USA",
+      "notable_works": ["Inception", "Titanic", "The Revenant"],
+      "image": "/movieStaticFiles/Celeb_Top/Leonardo-DiCaprio.webp"
+    },
+    
+    {
+      "name": "Denzel Washington",
+      "born_in": "December 28, 1954",
+      "place": "Mount Vernon, New York, USA",
+      "notable_works": ["Training Day", "Malcolm X", "Fences"],
+      "image": "/movieStaticFiles/Celeb_Top/Denzel-Washington.jfif"
+    },
+    {
+      "name": "Meryl Streep",
+      "born_in": "June 22, 1949",
+      "place": "Summit, New Jersey, USA",
+      "notable_works": ["The Devil Wears Prada", "Sophie's Choice", "Kramer vs. Kramer"],
+      "image": "/movieStaticFiles/Celeb_Top/Meryl-Streep.webp"
+    },
+    {
+      "name": "Tom Hanks",
+      "born_in": "July 9, 1956",
+      "place": "Concord, California, USA",
+      "notable_works": ["Forrest Gump", "Saving Private Ryan", "Cast Away"],
+      "image": "/movieStaticFiles/Celeb_Top/Tom-Hanks.jpg"
+    },
+    {
+      "name": "Natalie Portman",
+      "born_in": "June 9, 1981",
+      "place": "Jerusalem, Israel",
+      "notable_works": ["Black Swan", "V for Vendetta", "Jackie"],
+      "image": "/movieStaticFiles/Celeb_Top/Natalie-Portman.webp"
+    },
+    {
+      "name": "Robert Downey Jr.",
+      "born_in": "April 4, 1965",
+      "place": "New York City, New York, USA",
+      "notable_works": ["Iron Man", "Sherlock Holmes", "Chaplin"],
+      "image": "/movieStaticFiles/Celeb_Top/Robert-Downey-Jr.jpg"
+    },
+    {
+      "name": "Angelina Jolie",
+      "born_in": "June 4, 1975",
+      "place": "Los Angeles, California, USA",
+      "notable_works": ["Mr. & Mrs. Smith", "Maleficent", "Girl, Interrupted"],
+      "image": "/movieStaticFiles/Celeb_Top/Angelina-Jolie.jpg"
+    },
+    {
+      "name": "Scarlett Johansson",
+      "born_in": "November 22, 1984",
+      "place": "New York City, New York, USA",
+      "notable_works": ["Lost in Translation", "The Avengers", "Marriage Story"],
+      "image": "/movieStaticFiles/Celeb_Top/scarlett-johanson.jfif"
+    },
+    {
+      "name": "Brad Pitt",
+      "born_in": "December 18, 1963",
+      "place": "Shawnee, Oklahoma, USA",
+      "notable_works": ["Fight Club", "Once Upon a Time in Hollywood", "Se7en"],
+      "image": "https://example.com/images/brad_pitt.jpg"
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "born_in": "August 15, 1990",
+      "place": "Indian Hills, Kentucky, USA",
+      "notable_works": ["The Hunger Games", "Silver Linings Playbook", "American Hustle"],
+      "image": "https://example.com/images/jennifer_lawrence.jpg"
+    },
+    {
+      "name": "Morgan Freeman",
+      "born_in": "June 1, 1937",
+      "place": "Memphis, Tennessee, USA",
+      "notable_works": ["The Shawshank Redemption", "Se7en", "Million Dollar Baby"],
+      "image": "https://example.com/images/morgan_freeman.jpg"
+    },
+    {
+      "name": "Julia Roberts",
+      "born_in": "October 28, 1967",
+      "place": "Smyrna, Georgia, USA",
+      "notable_works": ["Pretty Woman", "Erin Brockovich", "My Best Friend's Wedding"],
+      "image": "https://example.com/images/julia_roberts.jpg"
+    },
+    {
+      "name": "Will Smith",
+      "born_in": "September 25, 1968",
+      "place": "Philadelphia, Pennsylvania, USA",
+      "notable_works": ["Men in Black", "The Pursuit of Happyness", "Ali"],
+      "image": "https://example.com/images/will_smith.jpg"
+    },
+    {
+      "name": "Cate Blanchett",
+      "born_in": "May 14, 1969",
+      "place": "Melbourne, Australia",
+      "notable_works": ["Blue Jasmine", "Carol", "Elizabeth"],
+      "image": "https://example.com/images/cate_blanchett.jpg"
+    },
+    {
+      "name": "Christian Bale",
+      "born_in": "January 30, 1974",
+      "place": "Haverfordwest, Wales, UK",
+      "notable_works": ["The Dark Knight", "American Psycho", "The Fighter"],
+      "image": "https://example.com/images/christian_bale.jpg"
+    },
+    {
+      "name": "Nicole Kidman",
+      "born_in": "June 20, 1967",
+      "place": "Honolulu, Hawaii, USA",
+      "notable_works": ["Moulin Rouge!", "The Hours", "Big Little Lies"],
+      "image": "https://example.com/images/nicole_kidman.jpg"
+    },
+    {
+      "name": "Hugh Jackman",
+      "born_in": "October 12, 1968",
+      "place": "Sydney, Australia",
+      "notable_works": ["Les Misérables", "The Greatest Showman", "Logan"],
+      "image": "https://example.com/images/hugh_jackman.jpg"
+    },
+    {
+      "name": "Charlize Theron",
+      "born_in": "August 7, 1975",
+      "place": "Benoni, South Africa",
+      "notable_works": ["Monster", "Mad Max: Fury Road", "Atomic Blonde"],
+      "image": "https://example.com/images/charlize_theron.jpg"
+    },
+    {
+      "name": "Matt Damon",
+      "born_in": "October 8, 1970",
+      "place": "Cambridge, Massachusetts, USA",
+      "notable_works": ["Good Will Hunting", "The Martian", "The Bourne Identity"],
+      "image": "https://example.com/images/matt_damon.jpg"
+  },
+  {
+    "name": "Emma Stone",
+    "born_in": "November 6, 1988",
+    "place": "Scottsdale, Arizona, USA",
+    "notable_works": ["La La Land", "The Amazing Spider-Man", "Cruella"],
+    "image": "https://example.com/images/emma_stone.jpg"
+  },
+  {
+    "name": "Keanu Reeves",
+    "born_in": "September 2, 1964",
+    "place": "Beirut, Lebanon",
+    "notable_works": ["The Matrix", "John Wick", "Speed"],
+    "image": "https://example.com/images/keanu_reeves.jpg"
+  },
+  {
+    "name": "Sandra Bullock",
+    "born_in": "July 26, 1964",
+    "place": "Arlington, Virginia, USA",
+    "notable_works": ["Gravity", "The Blind Side", "Miss Congeniality"],
+    "image": "https://example.com/images/sandra_bullock.jpg"
+  },
+  {
+    "name": "Chris Hemsworth",
+    "born_in": "August 11, 1983",
+    "place": "Melbourne, Australia",
+    "notable_works": ["Thor", "Extraction", "Rush"],
+    "image": "https://example.com/images/chris_hemsworth.jpg"
+  },
+  {
+    "name": "Gal Gadot",
+    "born_in": "April 30, 1985",
+    "place": "Petah Tikva, Israel",
+    "notable_works": ["Wonder Woman", "Fast & Furious", "Death on the Nile"],
+    "image": "https://example.com/images/gal_gadot.jpg"
+  },
+  {
+    "name": "Joaquin Phoenix",
+    "born_in": "October 28, 1974",
+    "place": "San Juan, Puerto Rico",
+    "notable_works": ["Joker", "Gladiator", "Her"],
+    "image": "https://example.com/images/joaquin_phoenix.jpg"
+  },
+  {
+    "name": "Zendaya",
+    "born_in": "September 1, 1996",
+    "place": "Oakland, California, USA",
+    "notable_works": ["Euphoria", "Spider-Man: No Way Home", "Dune"],
+    "image": "https://example.com/images/zendaya.jpg"
+  },
+  {
+    "name": "Benedict Cumberbatch",
+    "born_in": "July 19, 1976",
+    "place": "London, England",
+    "notable_works": ["Doctor Strange", "Sherlock", "The Imitation Game"],
+    "image": "https://example.com/images/benedict_cumberbatch.jpg"
+  },
+  {
+    "name": "Margot Robbie",
+    "born_in": "July 2, 1990",
+    "place": "Dalby, Australia",
+    "notable_works": ["The Wolf of Wall Street", "Suicide Squad", "Barbie"],
+    "image": "https://example.com/images/margot_robbie.jpg"
+  },
+  {
+    "name": "Ryan Reynolds",
+    "born_in": "October 23, 1976",
+    "place": "Vancouver, Canada",
+    "notable_works": ["Deadpool", "The Proposal", "Free Guy"],
+    "image": "https://example.com/images/ryan_reynolds.jpg"
+  },
+  {
+    "name": "Anne Hathaway",
+    "born_in": "November 12, 1982",
+    "place": "Brooklyn, New York, USA",
+    "notable_works": ["The Devil Wears Prada", "Les Misérables", "Interstellar"],
+    "image": "https://example.com/images/anne_hathaway.jpg"
+  }
+]
+
+   
+  

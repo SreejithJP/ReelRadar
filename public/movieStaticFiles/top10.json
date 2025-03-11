@@ -1,0 +1,63 @@
+ [
+      {
+        "name": "The White Lotus",
+        "poster_url": "/movieStaticFiles/top10/the-white-lotus.jpg",
+        "rating": 8.0,
+        "available_on": ["HBO Max"]
+      },
+      {
+        "name": "Severance",
+        "poster_url": "/movieStaticFiles/top10/severance.jfif",
+        "rating": 8.7,
+        "available_on": ["Apple TV+"]
+      },
+      {
+        "name": "Zero Day",
+        "poster_url": "/movieStaticFiles/top10/zero-day.jpg",
+        "rating": 7.0,
+        "available_on": ["Netflix"]
+      },
+      {
+        "name": "Reacher Season 3",
+        "poster_url": "/movieStaticFiles/top10/reacher.jpg",
+        "rating": 8.0,
+        "available_on": ["Amazon Prime Video"]
+      },
+      {
+        "name": "Paradise",
+        "poster_url": "/movieStaticFiles/top10/paradise.jpg",
+        "rating": 6.6,
+        "available_on": ["Netflix"]
+      },
+      {
+        "name": "The Gorge",
+        "poster_url": "/movieStaticFiles/top10/the-gorge.jpg",
+        "rating": 6.8,
+        "available_on": ["Amazon Prime Video"]
+      },
+      {
+        "name": "1923",
+        "poster_url": "/movieStaticFiles/top10/1923.jpg",
+        "rating": 8.4,
+        "available_on": ["Paramount+"]
+      },
+      {
+        "name": "The Brutalist",
+        "poster_url": "/movieStaticFiles/top10/the-brutalist.jpg",
+        "rating": 7.6,
+        "available_on": ["Upcoming in Theaters"]
+      },
+      {
+        "name": "A Thousand Blows",
+        "poster_url": "/movieStaticFiles/top10/a-thousand-blows.jpg",
+        "rating": 7.5,
+        "available_on": ["Disney+"]
+      },
+      {
+        "name": "Invincible",
+        "poster_url": "/movieStaticFiles/top10/invincible.jpg",
+        "rating": 8.7,
+        "available_on": ["Amazon Prime Video"]
+      }
+]
+  

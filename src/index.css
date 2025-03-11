@@ -1,0 +1,13 @@
+body {
+    background-color: #100F0E;
+    color: #EAEAEA; 
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  button{
+    cursor: pointer;
+  }

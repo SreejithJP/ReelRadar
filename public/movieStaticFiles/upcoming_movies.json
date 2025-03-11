@@ -1,0 +1,22 @@
+[
+    {
+      "movie_id": "M004",
+      "title": "Dune: Part 3",
+      "release_date": "2026-12-16",
+      "genres": ["Sci-Fi", "Adventure"],
+      "poster_url": "/movieStaticFiles/movie-series-celebrity-img/dune2.jpg",
+      "cover":"/movieStaticFiles/movie-series-celebrity-img/dune2-cover.jpeg",
+      "description":"Dune: Part 3, also known as Dune: Messiah, will explore the consequences of Paul Atreides' rise to power. The film will be based on Frank Herbert's novel of the same name."
+      
+    },
+    {
+      "movie_id": "M005",
+      "title": "Avatar 3",
+      "release_date": "2026-12-18",
+      "genres": ["Sci-Fi", "Fantasy"],
+      "poster_url": "/movieStaticFiles/movie-series-celebrity-img/avatar3.jpg",
+      "cover":"/movieStaticFiles/movie-series-celebrity-img/avatar3-cover.avif",
+      "description":"Avatar 3, also known as Fire and Ash, will focus on Jake Sully and Neytiri facing off against a new Na'vi tribe called the Ash People, a fiery and potentially antagonistic clan, while also dealing with the continued threat of the RDA and their attempts to further colonize Pandora, potentially utilizing a dangerous biological weapon to manipulate Pandora's ecosystem. "
+    }
+  ]
+  

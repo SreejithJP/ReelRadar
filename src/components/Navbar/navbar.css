@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #100F0E;
+    padding: 1vw 2vw; /* Responsive padding */
+    gap: 2vw; /* Adjusts spacing based on viewport width */
+}
+  
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logo {
+    background-image: url("/src/assets/REEL\ RADAR\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    width: 3.5vw; /* Scales with screen */
+    height: 2.5vw;
+    object-fit: contain;
+    padding: 0;/* Adjusts padding based on screen */
+}
+  
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.003);
+    border-color: rgba(0, 0, 0, 0.003);
+    border-radius: 0.3rem;
+}
+  
+.searchBtn, .watchlistBtn, .logoutBtn, .menuBtn {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    width: 2.5vw; /* Adjusting width dynamically */
+    height: 2.5vw;
+    object-fit: contain;
+    padding: 0;
+}
+
+.searchBtn { background-image: url("/src/assets/searchbar.svg"); 
+    position: relative;
+    top: 8px;  
+    margin-right: 10px;          
+}
+.watchlistBtn { background-image: url("/src/assets/watchlist.svg"); }
+.logoutBtn { background-image: url("/src/assets/logout.svg"); }
+.menuBtn { background-image: url("/src/assets/menubar.svg"); }
+
+.searchBar {
+    min-width: 50vw; /* Adjust width based on screen size */
+    max-width: 65vw;
+    height: 2vw;
+    border-radius: 0.3rem;
+    padding-left: 0.5vw;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) { /* Tablets and phones */
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        gap: 1.5vw;
+    }
+
+    .nav-items {
+        flex-direction: column; /* Make buttons stack */
+        gap: 1vw;
+    }
+
+    .searchBar {
+        min-width: 90%; /* Full width search bar */
+        max-width: 100%;
+    }
+
+    .logo, .searchBtn, .watchlistBtn, .logoutBtn, .menuBtn {
+        width: 8vw; /* Larger size for mobile */
+        height: 8vw;
+    }
+}
+
+button:hover {
+    opacity: 0.8;
+}

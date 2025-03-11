@@ -1,0 +1,21 @@
+[
+    {
+      "id": "M001",
+      "type": "movie",
+      "title_or_name": "Inception",
+      "keywords": "sci-fi, thriller, action, leonardo dicaprio, dreams"
+    },
+    {
+      "id": "S001",
+      "type": "series",
+      "title_or_name": "Breaking Bad",
+      "keywords": "crime, drama, walter white, meth, bryan cranston"
+    },
+    {
+      "id": "C001",
+      "type": "celebrity",
+      "title_or_name": "Leonardo DiCaprio",
+      "keywords": "actor, hollywood, titanic, inception, oscar winner"
+    }
+  ]
+  

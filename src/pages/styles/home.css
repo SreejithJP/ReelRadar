@@ -1,0 +1,51 @@
+.Carousal{
+    margin: 15px;
+}
+
+.homePageHeadings{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: rgb(15, 130, 81);
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.homeDiscription{
+    color: rgba(240, 248, 255, 0.856);
+    padding: 0px;
+    margin: 0px;
+}
+.signIn{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.signIn button{
+    background-color: #21b162;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 8px;
+
+}
+
+.footer {
+    
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}

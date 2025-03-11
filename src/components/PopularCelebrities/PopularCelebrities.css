@@ -1,0 +1,19 @@
+.celebs-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .celeb-item {
+    text-align: center;
+    min-width: 200px; 
+  } 
+  
+  .celeb-item img {
+    width: 190px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

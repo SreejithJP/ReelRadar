@@ -1,0 +1,57 @@
+.top10-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrollingWrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.top10-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px;
+    scrollbar-width: none;
+    white-space: nowrap;
+}
+
+.top10-item {
+    min-width: 150px;
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    border-radius: 10px;
+}
+
+.top10-img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: rgba(46, 46, 46, 0.638);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px; 
+}
+
+.next-btn {
+    right: 10px; 
+}
