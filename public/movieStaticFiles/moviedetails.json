@@ -1,0 +1,134 @@
+[
+    {
+      "name": "The Shawshank Redemption",
+      "releaseDate": "1994-09-23",
+      "posterUrl": "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg"
+    },
+    {
+      "name": "The Godfather",
+      "releaseDate": "1972-03-24",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "The Dark Knight",
+      "releaseDate": "2008-07-18",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "Pulp Fiction",
+      "releaseDate": "1994-10-14",
+      "posterUrl": "https://cdn-images.dzcdn.net/images/cover/f3d66e855e15ac75c9e3a085aa6697b6/0x1900-000000-80-0-0.jpg"
+    },
+    {
+      "name": "Forrest Gump",
+      "releaseDate": "1994-07-06",
+      "posterUrl": "https://www.usatoday.com/gcdn/presto/2019/03/21/USAT/d3d5fbc7-202f-4d6b-b65e-666df8e4691b-1TomHanks_ForrestGump.JPG?crop=1279,1279,x0,y83"
+    },
+    {
+      "name": "Inception",
+      "releaseDate": "2010-07-16",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg"
+    },
+    {
+      "name": "Fight Club",
+      "releaseDate": "1999-10-15",
+      "posterUrl": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg"
+    },
+    {
+      "name": "The Matrix",
+      "releaseDate": "1999-03-31",
+      "posterUrl": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg"
+    },
+    {
+      "name": "Goodfellas",
+      "releaseDate": "1990-09-21",
+      "posterUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ09ab9Wy_sH_kdZCB73xIXKfxKExuWFJArg&s"
+    },
+    {
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "releaseDate": "2001-12-19",
+      "posterUrl": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg"
+    },
+    {
+      "name": "Star Wars: Episode IV - A New Hope",
+      "releaseDate": "1977-05-25",
+      "posterUrl": "https://lumiere-a.akamaihd.net/v1/images/avco_payoff_1-sht_v7_lg_32e68793.jpeg"
+    },
+    {
+      "name": "The Silence of the Lambs",
+      "releaseDate": "1991-02-14",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "Saving Private Ryan",
+      "releaseDate": "1998-07-24",
+      "posterUrl": "https://miro.medium.com/v2/resize:fit:778/1*9mxfhTpsPda16IVepE8ITQ.jpeg"
+    },
+    {
+      "name": "Schindler's List",
+      "releaseDate": "1993-12-15",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "The Green Mile",
+      "releaseDate": "1999-12-10",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "Interstellar",
+      "releaseDate": "2014-11-07",
+      "posterUrl": "https://hips.hearstapps.com/hmg-prod/images/shutterstock-editorial-5885451r-1597783339.jpg?resize=980:*"
+    },
+    {
+      "name": "Gladiator",
+      "releaseDate": "2000-05-05",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "name": "The Departed",
+      "releaseDate": "2006-10-06",
+      "posterUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p162564_p_v8_ag.jpg"
+    },
+    {
+      "name": "The Prestige",
+      "releaseDate": "2006-10-20",
+      "posterUrl": "https://images.moviesanywhere.com/4d9df0e6b0bd732b3d1fa967b5b919fa/1adaca39-ae5e-4867-91fd-6025d3d08eb4.jpg"
+    },
+    {
+      "name": "The Lion King",
+      "releaseDate": "1994-06-24",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "Memento",
+      "releaseDate": "2001-03-16",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYmQ3MjliNjAtNWFiZS00YWI1LTlmZTktMzBiNDE1NjRhZjU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "name": "Apocalypse Now",
+      "releaseDate": "1979-08-15",
+      "posterUrl": "https://m.media-amazon.com/images/I/71U3WuK82RL.jpg"
+    },
+    {
+      "name": "Alien",
+      "releaseDate": "1979-05-25",
+      "posterUrl": "https://m.media-amazon.com/images/I/910CZyflfVL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "name": "The Usual Suspects",
+      "releaseDate": "1995-08-16",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "name": "Se7en",
+      "releaseDate": "1995-09-22",
+      "posterUrl": "https://m.media-amazon.com/images/I/61OsWbR83TL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "name": "Braveheart",
+      "releaseDate": "1995-05-24",
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNGMxZDBhNGQtYTZlNi00N2UzLWI4NDEtNmUzNWM2NTdmZDA0XkEyXkFqcGc@._V1_.jpg"
+    }
+]
+   
+  

@@ -1,4 +1,4 @@
-import "./navbar.css"
+import "./navbar.css";
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../../context/authContext.jsx";
 import MenuButton from "./menuBtn.jsx";
@@ -12,27 +12,35 @@ import Menu from "../../pages/Menu.jsx";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isAuthenticated, logout, user } = useContext(AuthContext);
+
   return (
-  <>  
-    <nav className="navbar">
+    <>
+      <nav className="navbar">
         <Link to="/">
-        <Logo/>
+          <Logo />
         </Link>
-        <div className="nav-items">
-        <MenuButton onClick={() => {setIsMenuOpen(true);console.log('MenuBtn clicked.');}} />
-          <Link to="/search">
-          <SearchBar />
-          </Link>
-          <Link to="/watchlist">
-          <WatchlistBtn />
-        </Link>
-        <Link to="/login">
-          <LogoutBtn />
-        </Link>
-        </div>
-    </nav>
-    {isMenuOpen ? <Menu onClose={() => setIsMenuOpen(false)} /> : null}
-  </>  
+        {isAuthenticated ? (
+          <div className="nav-items">
+            <MenuButton onClick={() => setIsMenuOpen(true)} />
+            <Link to="/search">
+              <SearchBar />
+            </Link>
+            <Link to="/watchlist">
+              <WatchlistBtn />
+            </Link>
+              <LogoutBtn />
+          </div>
+        ) : (
+          <div className="nav-items">
+            <Link to="/login">
+              <LoginBtn />
+            </Link>
+          </div>
+        )}
+      </nav>
+      {isMenuOpen && <Menu onClose={() => setIsMenuOpen(false)} />}
+    </>
   );
 };
 

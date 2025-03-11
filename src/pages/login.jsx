@@ -1,36 +1,39 @@
-import React, { useState } from "react";
-import "./styles/login.css";
+import React, { useContext, useState } from "react";
+import { AuthContext } from "../context/authContext";
+import { useNavigate } from "react-router-dom";
+import './styles/login.css'
 
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Logging in with:", email, password);
+  const handleLogin = async () => {
+    const success = await login(username, password);
+    if (success) {
+      navigate("/");
+    }
   };
 
   return (
-    <div className="login-container">
-      <h2>Login to ReelRadar</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Enter your password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <button type="submit">Login</button>
-      </form>
-      <p>Don't have an account? <a href="/register">Sign Up</a></p>
+    <div className="login">
+      <div className="login-container">
+      <h2>Login</h2>
+      <input
+        type="text"
+        placeholder="Username"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <button className="loginBtn" onClick={handleLogin}>Login</button>
+    </div>
     </div>
   );
 };

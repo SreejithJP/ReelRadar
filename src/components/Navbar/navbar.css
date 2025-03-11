@@ -29,6 +29,15 @@
     object-fit: contain;
     padding: 0;/* Adjusts padding based on screen */
 }
+
+.login-btn{
+    background-color: #21b162;
+    color: black;
+    min-width: 100px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 8px;
+}
   
 button {
     color: white;
