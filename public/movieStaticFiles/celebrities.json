@@ -366,8 +366,8 @@
     "nationality": "British",
     "profession": ["Actress", "Singer"],
     "biography": "Kate Winslet is a British actress known for her diverse roles in films such as 'Eternal Sunshine of the Spotless Mind', 'Titanic', and 'The Reader'.",
-    "image_url": "/movieStaticFiles/movie-series-celebrity-img/kate-winslet.jpg",
-    "cover": "/movieStaticFiles/movie-series-celebrity-img/kate-winslet-cover.jpg"
+    "image_url": "/movieStaticFiles/movie-series-celebrity-img/kate-w-poster.jpg",
+    "cover": "/movieStaticFiles/movie-series-celebrity-img/kate-w-cover.jpg"
   },
   {
     "celebrity_id": "C038",

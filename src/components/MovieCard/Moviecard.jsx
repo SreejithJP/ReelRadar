@@ -1,7 +1,12 @@
 import './moviecard.css';
 
 const MovieCard = ({ item, index, handleTitleClick, watchlists }) => {
-    const isInWatchlist = watchlists?.watchlist?.includes(item.movie_id) || watchlists?.watchlist?.includes(item.series_id);
+    const user = JSON.parse(localStorage.getItem("user"));
+    const user_id = user?.user_id; // Get the logged-in user's ID
+    // Find the watchlist for the logged-in user
+    const userWatchlist = watchlists?.find((w) => w.user_id === user_id)?.watchlist || [];
+    // Check if the item is in the user's watchlist
+    const isInWatchlist = userWatchlist.includes(item.movie_id) || userWatchlist.includes(item.series_id);
 
     return (
         <div className="movie-card">
@@ -34,7 +39,8 @@ const MovieCard = ({ item, index, handleTitleClick, watchlists }) => {
                                 ? "/movieStaticFiles/watchlist/removeFromWatchlist.svg"
                                 : "/movieStaticFiles/watchlist/addToWatchlist.svg"
                         }
-                        alt={isInWatchlist ? "Remove from Watchlist" : "Add to Watchlist"}
+                        alt={isInWatchlist ? "Remove from Watchlist" : "Add to Watchlist"}    
+                        
                     />
                 </button>
             </div>

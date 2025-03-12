@@ -1,10 +1,12 @@
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
+import { MovieSeriesContext } from "./movieSeriesContext";
 
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState(null);
+  const { fetchAllData } = useContext(MovieSeriesContext); // Get the fetch function from MovieSeriesContext
 
   // Fetch user data from JSON file
   const fetchUsers = async () => {
@@ -31,6 +33,12 @@ export const AuthProvider = ({ children }) => {
       setUser(foundUser);
       localStorage.setItem("isAuthenticated", "true");
       localStorage.setItem("user", JSON.stringify(foundUser));
+      // Call the function to fetch all data after successful login
+      if (fetchAllData) {
+        fetchAllData();
+      } else {
+        console.error("fetchAllData is not defined or not available.");
+      }
       return true;
     } else {
       alert("Invalid username or password");

@@ -1,38 +1,23 @@
-import { useEffect, useState } from "react";
+import { useContext } from "react";
 import './styles/watchlist.css'
+import { MovieSeriesContext } from "../context/movieSeriesContext";
 const Watchlist = () => {
-const [movies, setMovies] = useState([]);
-const [series, setSeries] = useState([]);
-const [upMovies, setUpMovies] = useState([]);
-const [upSeries, setUpSeries] = useState([]);
-const [watchlists, setWatchlist] = useState([]);
-useEffect(() => {
+const {
+    movies,
+    series,
+    upcomingMovies,
+    upcomingSeries,
+    watchlists,
+  } = useContext(MovieSeriesContext);
+    //parse user into object from string format
     const user = JSON.parse(localStorage.getItem("user"));
-    const userId = user?.user_id;
-    console.log(`user : ${user}`);
-    Promise.all([
-      fetch("/movieStaticFiles/movies.json").then((response) => response.json()),
-      fetch("/movieStaticFiles/series.json").then((response) => response.json()),
-      fetch("/movieStaticFiles/upcoming_movies.json").then((response) => response.json()),
-      fetch("/movieStaticFiles/upcoming_series.json").then((response) => response.json()),
-      fetch("/movieStaticFiles/watchlist.json").then((response) => response.json()),
-    ])
-    .then(([movies, series, upMovies, upSeries, watchlist]) => {
-      const userWatchlist = watchlist.find((w) => w.user_id === userId);
-      console.log("User Watchlist:", userWatchlist);
-      setMovies(movies);
-      setSeries(series);
-      setUpMovies(upMovies);
-      setUpSeries(upSeries);
-      setWatchlist(userWatchlist?.watchlist || []);
-    })
-    .catch((error) => console.error("Error fetching JSON files:", error));
-  }, []);
-
-    const filteredMovies = movies.filter((m) => watchlists.includes(m.movie_id));
-    const filteredSeries = series.filter((m) => watchlists.includes(m.series_id));
-    const filteredUpMovies = upMovies.filter((m) => watchlists.includes(m.movie_id));
-    const filteredUpSeries = upSeries.filter((m) => watchlists.includes(m.series_id));
+    const user_id = user?.user_id; // Get the logged-in user's ID
+    // Find the watchlist for the logged-in user
+    const userWatchlist = watchlists?.find((w) => w.user_id === user_id)?.watchlist || [];
+    const filteredMovies = movies.filter((m) => userWatchlist.includes(m.movie_id));
+    const filteredSeries = series.filter((m) => userWatchlist.includes(m.series_id));
+    const filteredUpMovies = upcomingMovies.filter((m) => userWatchlist.includes(m.movie_id));
+    const filteredUpSeries = upcomingSeries.filter((m) => userWatchlist.includes(m.series_id));
   
     return (
         <div className="watchlist-container">
