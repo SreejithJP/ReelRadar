@@ -1,6 +1,12 @@
-{
+[{
     "user_id": "U001",
     "username": "sreejith",
     "watchlist": ["M001", "M002", "S003"]
+  },
+  {
+    "user_id": "U002",
+    "username": "john",
+    "watchlist": ["M003", "M007", "S002","S003"]
   }
+]
   

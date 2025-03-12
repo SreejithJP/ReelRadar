@@ -7,6 +7,9 @@ const [upMovies, setUpMovies] = useState([]);
 const [upSeries, setUpSeries] = useState([]);
 const [watchlists, setWatchlist] = useState([]);
 useEffect(() => {
+    const user = JSON.parse(localStorage.getItem("user"));
+    const userId = user?.user_id;
+    console.log(`user : ${user}`);
     Promise.all([
       fetch("/movieStaticFiles/movies.json").then((response) => response.json()),
       fetch("/movieStaticFiles/series.json").then((response) => response.json()),
@@ -15,19 +18,21 @@ useEffect(() => {
       fetch("/movieStaticFiles/watchlist.json").then((response) => response.json()),
     ])
     .then(([movies, series, upMovies, upSeries, watchlist]) => {
+      const userWatchlist = watchlist.find((w) => w.user_id === userId);
+      console.log("User Watchlist:", userWatchlist);
       setMovies(movies);
       setSeries(series);
       setUpMovies(upMovies);
       setUpSeries(upSeries);
-      setWatchlist(watchlist);
+      setWatchlist(userWatchlist?.watchlist || []);
     })
     .catch((error) => console.error("Error fetching JSON files:", error));
   }, []);
 
-    const filteredMovies = movies.filter((m) => watchlists.watchlist.includes(m.movie_id));
-    const filteredSeries = series.filter((m) => watchlists.watchlist.includes(m.series_id));
-    const filteredUpMovies = upMovies.filter((m) => watchlists.watchlist.includes(m.movie_id));
-    const filteredUpSeries = upSeries.filter((m) => watchlists.watchlist.includes(m.series_id));
+    const filteredMovies = movies.filter((m) => watchlists.includes(m.movie_id));
+    const filteredSeries = series.filter((m) => watchlists.includes(m.series_id));
+    const filteredUpMovies = upMovies.filter((m) => watchlists.includes(m.movie_id));
+    const filteredUpSeries = upSeries.filter((m) => watchlists.includes(m.series_id));
   
     return (
         <div className="watchlist-container">
